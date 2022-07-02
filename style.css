@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+#etchCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#subCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+
+}
+
+
+.gridcont2 {
+    display: grid;
+    grid-auto-rows: 1fr;
+    height: 750px;
+    width: 750px;
+    grid-gap: 2px;
+}
+
+
+.gridcont2 > * {
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+}
